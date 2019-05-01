@@ -1,6 +1,7 @@
 def line(deli_line)
   if deli_line.size == 0 
     puts 'The line is currently empty.'
+    return
   else 
     output = 'The line is currently: '
     count = 0
